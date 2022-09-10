@@ -1,0 +1,42 @@
+{
+  "root": [
+    {
+      "id": "vessel",
+      "menu": "My Cars",
+      "submenu": [
+        {
+          "id": "fuel-trend",
+          "submenuname": "Fuel Consumption - Trends",
+          "subsubmenu": [
+            {
+              "id": 0,
+              "subsubmenuname": "Time Trending"
+            },
+            {
+              "id": 1,
+              "subsubmenuname": "Multi-parameter Analysis"
+            },
+            {
+              "id": 2,
+              "subsubmenuname": "Data-outliers"
+            }
+          ]
+        },
+        {
+          "id": "fuel-type",
+          "submenuname": "Fuel Type - Analysis",
+          "subsubmenu": [
+            {
+              "id": 3,
+              "subsubmenuname": "SP 98"
+            },
+            {
+              "id": 4,
+              "subsubmenuname": "SP 95 E10"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

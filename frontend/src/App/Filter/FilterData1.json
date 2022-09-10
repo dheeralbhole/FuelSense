@@ -1,0 +1,170 @@
+{
+  "root": [
+    {
+      "pageName": "Data-out",
+      "filterx": [
+        {
+          "id": "0",
+          "title": "Plots",
+          "type": "radio",
+          "filterContent": [
+            {
+              "name": "Time Trending",
+              "abbreviation": "DOUTPTS",
+              "disabled": false
+            },
+            { "name": "6D Plots", "abbreviation": "DOUTPTS", "disabled": false }
+          ]
+        },
+        {
+          "id": "1",
+          "title": "Duration Covered",
+          "type": "radio",
+          "filterContent": [
+            {
+              "name": "30 Days",
+              "abbreviation": "DOUTPDCS",
+              "disabled": false
+            },
+            { "name": "90 Days", "abbreviation": "DOUTPDCS", "disabled": false }
+          ]
+        },
+        {
+          "id": "2",
+          "title": "Beufort or Swell",
+          "type": "radio",
+          "filterContent": [
+            { "name": "Beufort", "abbreviation": "DOUTBS", "disabled": false },
+            { "name": "Swell", "abbreviation": "DOUTBS", "disabled": false }
+          ]
+        }
+      ]
+    },
+    {
+      "pageName": "Time-Trending",
+      "filterx": [
+        {
+          "id": "0",
+          "title": "Duration Covered",
+          "type": "radio",
+          "filterContent": [
+            { "name": "30 Days", "abbreviation": "TTDCS", "disabled": false },
+            { "name": "90 Days", "abbreviation": "TTDCS", "disabled": false },
+            { "name": "1 Year", "abbreviation": "TTDCS", "disabled": false }
+          ]
+        },
+        {
+          "id": "1",
+          "title": "Comparision Fuel",
+          "type": "radio",
+          "filterContent": [
+            { "name": "None", "abbreviation": "TTCP", "disabled": false }
+          ]
+        }
+      ]
+    },
+    {
+      "pageName": "Multi-Parameter",
+      "filterx": [
+        {
+          "id": "0",
+          "title": "Relationship to View",
+          "type": "radio",
+          "filterContent": [
+            {
+              "name": "Distance vs Consume",
+              "abbreviation": "MPRV",
+              "disabled": false
+            },
+            {
+              "name": "Speed vs Consume",
+              "abbreviation": "MPRV",
+              "disabled": false
+            },
+            {
+              "name": "Temp Outside vs Consume",
+              "abbreviation": "MPRV",
+              "disabled": false
+            },
+            { "name": "5D Plots", "abbreviation": "DOUTPTS", "disabled": false }
+          ]
+        },
+        {
+          "id": "1",
+          "title": "Duration Covered",
+          "type": "radio",
+          "filterContent": [
+            { "name": "30 Days", "abbreviation": "MPDCS", "disabled": false },
+            { "name": "90 Days", "abbreviation": "MPDCS", "disabled": false },
+            { "name": "1 Year", "abbreviation": "MPDCS", "disabled": false }
+          ]
+        },
+        {
+          "id": "2",
+          "title": "Period to Compare",
+          "type": "radio",
+          "filterContent": [
+            {
+              "name": "AC or Non AC",
+              "abbreviation": "MPCP",
+              "disabled": false
+            },
+            { "name": "Fuel Type", "abbreviation": "MPCP", "disabled": false },
+            { "name": "Rain", "abbreviation": "MPCP", "disabled": false },
+            { "name": "Sun", "abbreviation": "MPCP", "disabled": false }
+          ]
+        }
+      ]
+    },
+    {
+      "pageName": "main4",
+      "filterx": [
+        {
+          "id": "0",
+          "title": "Relationship to View",
+          "type": "radio",
+          "filterContent": [
+            { "name": "5D", "abbreviation": "RV", "disabled": true },
+            {
+              "name": "Weather vs Slip",
+              "abbreviation": "RV",
+              "disabled": true
+            }
+          ]
+        },
+        {
+          "id": "1",
+          "title": "Duration Covered",
+          "type": "radio",
+          "filterContent": [
+            { "name": "30 Days", "abbreviation": "DCS", "disabled": true },
+            { "name": "90 Days", "abbreviation": "DCS", "disabled": true },
+            {
+              "name": "Since Dry Dock",
+              "abbreviation": "DCS",
+              "disabled": true
+            }
+          ]
+        },
+        {
+          "id": "2",
+          "title": "Period to Compare",
+          "type": "radio",
+          "filterContent": [
+            { "name": "Single", "abbreviation": "PC" },
+            {
+              "name": "Together with corresponding period for previous year",
+              "abbreviation": "PC",
+              "disabled": true
+            },
+            {
+              "name": "Together with corresponding period for previous 2 years",
+              "abbreviation": "PC",
+              "disabled": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

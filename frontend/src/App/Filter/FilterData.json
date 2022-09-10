@@ -1,0 +1,198 @@
+{
+  "root": [
+    {
+      "pageName": "Time-Trending",
+      "filterx": [
+        {
+          "id": "0",
+          "title": "Duration Covered",
+          "type": "radio",
+          "filterContent": [
+            { "name": "30 Days", "abbreviation": "TTDCS", "disabled": false },
+            { "name": "90 Days", "abbreviation": "TTDCS", "disabled": false },
+            {
+              "name": "1 Year",
+              "abbreviation": "TTDCS",
+              "disabled": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "pageName": "Multi-Parameter",
+      "filterx": [
+        {
+          "id": "0",
+          "title": "Relationship to View",
+          "type": "radio",
+          "filterContent": [
+            {
+              "name": "Distance vs Consume",
+              "abbreviation": "MPRV",
+              "disabled": false
+            },
+            {
+              "name": "Speed vs Consume",
+              "abbreviation": "MPRV",
+              "disabled": false
+            },
+            {
+              "name": "Temp vs Consume",
+              "abbreviation": "MPRV",
+              "disabled": false
+            }
+          ]
+        },
+        {
+          "id": "1",
+          "title": "Duration Covered",
+          "type": "radio",
+          "filterContent": [
+            { "name": "30 Days", "abbreviation": "MPDCS", "disabled": false },
+            { "name": "90 Days", "abbreviation": "MPDCS", "disabled": false },
+            { "name": "1 Year", "abbreviation": "MPDCS", "disabled": false }
+          ]
+        },
+        {
+          "id": "2",
+          "title": "Period to Compare",
+          "type": "radio",
+          "filterContent": [
+            {
+              "name": "AC or Non AC",
+              "abbreviation": "MPCP",
+              "disabled": false
+            },
+            {
+              "name": "Fuel Type",
+              "abbreviation": "MPCP",
+              "disabled": false
+            },
+            {
+              "name": "Rain",
+              "abbreviation": "MPCP",
+              "disabled": false
+            },
+            {
+              "name": "Sun",
+              "abbreviation": "MPCP",
+              "disabled": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "pageName": "Data-out",
+      "filterx": [
+        {
+          "id": "0",
+          "title": "Plots",
+          "type": "radio",
+          "filterContent": [
+            {
+              "name": "5D Plots",
+              "abbreviation": "DOUTPTS",
+              "disabled": false
+            }
+          ]
+        },
+        {
+          "id": "1",
+          "title": "Duration Covered",
+          "type": "radio",
+          "filterContent": [
+            {
+              "name": "Whole Data",
+              "abbreviation": "DOUTPDCS",
+              "disabled": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "pageName": "SP-98",
+      "filterx": [
+        {
+          "id": "0",
+          "title": "Relationship to View",
+          "type": "radio",
+          "filterContent": [
+            {
+              "name": "Distance vs Consume",
+              "abbreviation": "RV98",
+              "disabled": false
+            },
+            {
+              "name": "Speed vs Consume",
+              "abbreviation": "RV98",
+              "disabled": false
+            },
+            {
+              "name": "Outside Temp vs Consume",
+              "abbreviation": "RV98",
+              "disabled": false
+            }
+          ]
+        },
+        {
+          "id": "1",
+          "title": "Duration Covered",
+          "type": "radio",
+          "filterContent": [
+            { "name": "30 Days", "abbreviation": "DCS98", "disabled": false },
+            { "name": "90 Days", "abbreviation": "DCS98", "disabled": false },
+            {
+              "name": "1 Year",
+              "abbreviation": "DCS98",
+              "disabled": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "pageName": "SP-95",
+      "filterx": [
+        {
+          "id": "0",
+          "title": "Relationship to View",
+          "type": "radio",
+          "filterContent": [
+            {
+              "name": "Distance vs Consume",
+              "abbreviation": "RV95",
+              "disabled": false
+            },
+            {
+              "name": "Speed vs Consume",
+              "abbreviation": "RV95",
+              "disabled": false
+            },
+            {
+              "name": "Outside Temp vs Consume",
+              "abbreviation": "RV95",
+              "disabled": false
+            }
+          ]
+        },
+        {
+          "id": "1",
+          "title": "Duration Covered",
+          "type": "radio",
+          "filterContent": [
+            { "name": "30 Days", "abbreviation": "DCS95", "disabled": false },
+            { "name": "90 Days", "abbreviation": "DCS95", "disabled": false },
+            {
+              "name": "1 Year",
+              "abbreviation": "DCS95",
+              "disabled": false
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

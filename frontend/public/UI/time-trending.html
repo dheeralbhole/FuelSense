@@ -1,0 +1,250 @@
+<html>
+<head>
+	<title>Aranti Analytics</title>
+	<!-- Google Fonts -->
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700">
+	<!-- CSS Global Compulsory -->
+	<link rel="stylesheet" href="fa/css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<!-- Custom CSS --> 
+	<link rel="stylesheet" href="css/style.css">
+	<!-- Scrollbar Custom CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.min.css">
+</head>
+<body>
+	<nav id="sidebar">
+		<div class="row">
+			<div class="sidebar-header">
+				<i id="dismiss" class="fa fa-bars navbar-toggle-side"></i>
+				<img src="img/logo.png" alt="Image Description" class="logo-custom">
+			</div>
+		</div>
+        <ul class="list-unstyled components">
+            <li>
+				<a href="#vessel" data-toggle="collapse" aria-expanded="false">My Vessel</a>
+				<ul class="collapse list-unstyled" id="vessel">
+                    <li class="sub-menu">
+                        <a href="#fuel" data-toggle="collapse" aria-expanded="false">Fuel Consumption - Sea & Hull</a>
+						<ul class="collapse list-unstyled" id="fuel">
+							<li class="sub-sub-menu">
+								<a href="#">Data-outliers</a>
+							</li>
+							<li class="sub-sub-menu">
+								<a href="#">Time Trending</a>
+							</li>
+							<li class="sub-sub-menu">
+								<a href="#">Trend Analysis</a>
+							</li>
+							<li class="sub-sub-menu">
+								<a href="#">Multi-Parameter Analysis</a>
+							</li>
+							<li class="sub-sub-menu">
+								<a href="#">Slip Analysis</a>
+							</li>
+							<li class="sub-sub-menu">
+								<a href="#">Route Analysis</a>
+							</li>
+						</ul>
+                    </li>
+                    <li class="sub-menu">
+                        <a href="#machine" data-toggle="collapse" aria-expanded="false">Machinery</a>
+						<ul class="collapse list-unstyled" id="machine">
+							<li class="sub-sub-menu">
+								<a href="#">Trend Analysis</a>
+							</li>
+							<li class="sub-sub-menu">
+								<a href="#">Multi-Parameter Analysis</a>
+							</li>
+						</ul>
+                    </li>
+					<li class="sub-menu">
+                        <a href="#" data-toggle="collapse" aria-expanded="false">Machinery Performance</a>
+                    </li>
+                </ul>
+            </li>
+            <li class="render-line">
+                <a href="#">General Analysis</a>
+            </li>
+        </ul>
+    </nav>
+	<div id="content">
+        <nav class="navbar navbar-default">
+            <div class="container-fluid">
+				<div class="row">
+					<div class="col-xs-6" style="margin-left: 0px;">
+						<!-- Toggler/collapsibe Button -->
+						<button type="button" id="sidebarCollapse" class="navbar-toggle">
+							<i class="fa fa-bars" aria-hidden="true"></i>
+						</button>
+					</div>
+					<div class="col-xs-6">
+						<!-- Logo -->	
+						<a href="index.html" class="navbar-brand navbar-brand-custom">
+							<img src="img/logo.png" alt="Image Description">
+						</a>
+					</div>
+				</div>
+				<div class="row">
+					<div class="custom-profile">
+						<div class="dropdown dropdown-profile">
+							<a class="" data-toggle="dropdown" href="#">
+								<img src="img/profile-pic.png" alt="Image Description" class="profile-icon" style="border-radius:22.5px;">
+							</a>
+							<ul class="dropdown-menu dropdown-myprofile">
+							<li class="profile-heading"><img src="img/profile-pic.png" alt="Image Description" class="profile-icon" style="border-radius:22.5px;">   Welcome <span style="color:#007bff">Dheeral</span></li>
+								<li><a href="#">My Profile</a></li>
+								<li><a href="#">Logout</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="custom-profile-2">
+						<div class="dropdown dropdown-profile">
+							<a class="" data-toggle="dropdown" href="#">
+								<i class="fa fa-ship" aria-hidden="true" style="color:black"></i>
+							</a>
+							<ul class="dropdown-menu dropdown-icons">
+								<li class="dropdown-heading">My Fleet</li>
+								<div class="row">
+									<li class="custom-icons"><a href="#">123445- AZUL LIBERO</a></li>
+								</div>
+								<div class="row">
+									<li class="custom-icons"><a href="#">149045- BALTIC WOLF</a></li>
+								</div>
+								<div class="row">
+									<li class="custom-icons"><a href="#">986404- BULK SPAIN</a></li>
+								</div>
+								<div class="row">
+									<li class="custom-icons"><a href="#">364021- DARYA DEVI</a></li>
+								</div>
+							</ul>
+						</div>
+					</div>
+					<div class="custom-profile-3">
+						<div class="dropdown dropdown-profile">
+							<a class="" data-toggle="dropdown" href="#">
+								<i class="fa fa-bell" aria-hidden="true" style="color:black"></i>
+							</a>
+							<ul class="dropdown-menu dropdown-notification">
+								<li class="dropdown-heading">NOTIFICATIONS</li>
+								<li class="custom-notifications"><a href="#">You have new service lined up</a><br><span class="noti-time">1 days ago</span></li>
+								<li class="custom-notifications"><a href="#">You have new wheel changed lined up</a><br><span class="noti-time">1 days ago</span></li>
+							</ul>
+						</div>
+					</div>
+					<div class="custom-profile-4">
+						<div class="dropdown dropdown-profile">
+							<a class="" data-toggle="dropdown" href="#">
+								<i class="fa fa-line-chart" aria-hidden="true" style="color:black"></i>
+							</a>
+							<ul class="dropdown-menu dropdown-notification">
+								<li class="dropdown-heading">NOTIFICATIONS</li>
+								<li class="custom-notifications"><a href="#">You have new service lined up</a><br><span class="noti-time">1 days ago</span></li>
+								<li class="custom-notifications"><a href="#">You have new wheel changed lined up</a><br><span class="noti-time">1 days ago</span></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+            </div>
+        </nav>
+		<div class="container-fluid row space-t-80">
+			<div class="col-lg-2 col-md-3 col-sm-12 dropdown-container">
+				<span class="filter-head space-b-20 space-l-20">Filters</span>
+				<div class="space-t-20"></div>
+				<button id="filter-button1" class="filter-button">
+					<p class="inside-filter">
+						<i class="fa fa-caret-right" id="x1" aria-hidden="true"></i>
+						<span class="pad-left-2">Voyage or Port</span>
+						<i class="fa fa-filter align-right" aria-hidden="true"></i>
+					</p>
+				</button>
+				<div id="dropdown-list1" class="dropdown-list" style="display: none;">
+					<ul id="filter-ul1" class="filter-ul"></ul>
+				</div>
+				<div class="space-t-10"></div>
+				<button id="filter-button2" class="filter-button">
+					<p class="inside-filter">
+						<i class="fa fa-caret-right" id="x2" aria-hidden="true"></i>
+						<span class="pad-left-2">Duration Covered</span>
+						<i class="fa fa-filter align-right" aria-hidden="true"></i>
+					</p>
+				</button>
+				<div id="dropdown-list2" class="dropdown-list" style="display: none;">
+					<ul id="filter-ul2" class="filter-ul"></ul>
+				</div>
+				<div class="space-t-10"></div>
+				<button id="filter-button3" class="filter-button">
+					<p class="inside-filter">
+						<i class="fa fa-caret-right" id="x3" aria-hidden="true"></i>
+						<span class="pad-left-2">Solo or Sisters</span>
+						<i class="fa fa-filter align-right" aria-hidden="true"></i>
+					</p>
+				</button>
+				<div id="dropdown-list3" class="dropdown-list" style="display: none;">
+					<ul id="filter-ul3" class="filter-ul"></ul>
+				</div>
+				<div class="space-t-10"></div>
+				<button id="filter-button4" class="filter-button">
+					<p class="inside-filter">
+						<i class="fa fa-caret-right custom-fa" id="x4" aria-hidden="true"></i>
+						<span class="pad-left-2">Quantities Displayed</span>
+						<i class="fa fa-filter align-right" aria-hidden="true"></i>
+					</p>
+				</button>
+				<div id="dropdown-list4" class="dropdown-list" style="display: none;">
+					<ul id="filter-ul4" class="filter-ul"></ul>
+				</div>
+				<div class="space-t-10"></div>
+			</div>
+			<div class="col-lg-10 col-md-9 col-sm-12" id="">
+				<h3>Collapsible Navbar</h3>
+				<div class="put-include-here">
+				
+				</div>
+			</div>
+		</div>
+    </div>
+	<div class="overlay"></div>
+	<!-- JS Global Compulsory -->
+	<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/popper.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.9.1/underscore-min.js" integrity="sha256-G7A4JrJjJlFqP0yamznwPjAApIKPkadeHfyIwiaa9e0=" crossorigin="anonymous"></script>
+	<!-- Custom JS -->
+	<script src="js/custom.js"></script>
+	<!-- jQuery Custom Scroller CDN -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.concat.min.js"></script>
+	<script type="text/javascript">
+	
+    $(document).ready(function () {
+		
+		$(".put-include-here").load("Plot3D.html");
+		
+        $("#sidebar").mCustomScrollbar({
+            theme: "minimal"
+        });
+
+        $('#dismiss, .overlay').on('click', function () {
+            // hide sidebar
+            $('#sidebar').removeClass('active');
+            // hide overlay
+            $('.overlay').removeClass('active');
+        });
+
+        $('#sidebarCollapse').on('click', function () {
+            // open sidebar
+            $('#sidebar').addClass('active');
+            // fade in the overlay
+            $('.overlay').addClass('active');
+            $('.collapse.in').toggleClass('in');
+            $('a[aria-expanded=true]').attr('aria-expanded', 'false');
+        });
+    });
+	$(document).ready(function(){
+		$("#filter-button1").click();
+		$(".hidden-row").find("td").hide();
+	});
+
+    
+	</script>
+</body>
+</html>
